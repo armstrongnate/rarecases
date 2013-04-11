@@ -1,5 +1,5 @@
 Rarecases::Application.routes.draw do
-  get "home/index"
+  # get "home/index"
 
   resources :users
 
