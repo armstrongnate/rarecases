@@ -7,12 +7,12 @@
     = csrf_meta_tags
   %body
     .container
-      .navbar
-        .navbar-inner
-          = link_to "Rare Cases", root_url, :class => 'brand'
-          %ul.nav
-            %li
-              = link_to "Sample Page", "#", :class => 'active'
-            %li
-              = link_to "Link", "#"
+      / .navbar
+      /   .navbar-inner
+      /     = link_to "Rare Cases", root_url, :class => 'brand'
+      /     %ul.nav
+      /       %li
+      /         = link_to "Sample Page", "#", :class => 'active'
+      /       %li
+      /         = link_to "Link", "#"
       = yield
