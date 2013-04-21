@@ -1,16 +1,2 @@
-.background-gradient
-.row
-  .span4.offset4.form-wrapper
-    %h2 Rare Cases
-    = form_tag nil do
-      .control-group
-        = label_tag 'Name', nil, class: 'control-label'
-        .controls
-          = text_field_tag 'Name'
-      .control-group
-        = label_tag 'Email', nil, class: 'control-label'
-        .controls
-          = text_field_tag 'Email'
-          %br
-          .button.btn{type: 'submit'} Submit
-    %hr
+.splash
+  = image_tag 'splashpage.jpg'
